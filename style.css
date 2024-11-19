@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #fff;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-bottom: 2px solid #ffcc00;
+    box-sizing: border-box;
+}
+
+header h1 {
+    color: #ffcc00;
+}
+
+main {
+    padding: 20px;
+}
+
+.produtos {
+    text-align: center;
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.produto {
+    width: 200px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.produto img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.whatsapp {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #25d366;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 2px solid #ffcc00;
+}
+
+.logo {
+    width: 250px;
+    height: auto;
+    border-radius: 10px; /* Opcional: ajusta a borda da logo */
+}
+
+.header-text {
+    text-align: left;
+}
+
+header h1 {
+    color: #ffcc00;
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0 0 0;
+    color: #333;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+}
+
+.whatsapp {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #25d366;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* Opcional: Deixa o ícone circular */
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+}
